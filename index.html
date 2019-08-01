@@ -1,97 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<title>Resume</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0" />
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
 	<style>
-	a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, ul, var {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-weight: inherit;
-  font-style: inherit;
-  font-size: 100%;
-  font-family: inherit;
-  vertical-align: top; }
-table {
-  border-collapse: separate;
-  border-spacing: 0; }
-caption, td, th {
-  text-align: left;
-  font-weight: 400; }
-blockquote:after, blockquote:before, q:after, q:before {
-  content: ""; }
-blockquote, q {
-  quotes: "" ""; }
-article, aside, figure, footer, header, nav, section {
-  display: block; }
-a, a:visited {
-  text-decoration: none; }
-a:active, a:hover {
-  color: #000;
-  text-decoration: none; }
-a, a:active, a:focus, a:hover {
-  outline: 0; }
-*,*::after, *::before{
-box-sizing:border-box;
-}
-img {
-  border: 0; }
-		body{font-family:'PT Sans';background:#EAEAEA;letter-spacing:1px;font-size:14px;}
-		.wrapper{height:1300px;}
-		.container{width:740px;margin:0 auto;position:relative;}
-		.header{background:#333333;color:#fff;text-align:center;}
+		a,
+		abbr,
+		acronym,
+		address,
+		applet,
+		big,
+		blockquote,
+		body,
+		caption,
+		cite,
+		code,
+		dd,
+		del,
+		dfn,
+		div,
+		dl,
+		dt,
+		em,
+		fieldset,
+		font,
+		form,
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6,
+		html,
+		iframe,
+		img,
+		ins,
+		kbd,
+		label,
+		legend,
+		li,
+		object,
+		ol,
+		p,
+		pre,
+		q,
+		s,
+		samp,
+		small,
+		span,
+		strike,
+		strong,
+		sub,
+		sup,
+		table,
+		tbody,
+		td,
+		tfoot,
+		th,
+		thead,
+		tr,
+		tt,
+		ul,
+		var {
+			margin: 0;
+			padding: 0;
+			border: 0;
+			outline: 0;
+			font-weight: inherit;
+			font-style: inherit;
+			font-size: 100%;
+			font-family: inherit;
+			vertical-align: top;
+		}
+
+		table {
+			border-collapse: separate;
+			border-spacing: 0;
+		}
+
+		caption,
+		td,
+		th {
+			text-align: left;
+			font-weight: 400;
+		}
+
+		blockquote:after,
+		blockquote:before,
+		q:after,
+		q:before {
+			content: "";
+		}
+
+		blockquote,
+		q {
+			quotes: """";
+		}
+
+		article,
+		aside,
+		figure,
+		footer,
+		header,
+		nav,
+		section {
+			display: block;
+		}
+
+		a,
+		a:visited {
+			text-decoration: none;
+		}
+
+		a:active,
+		a:hover {
+			color: #000;
+			text-decoration: none;
+		}
+
+		a,
+		a:active,
+		a:focus,
+		a:hover {
+			outline: 0;
+		}
+
+		*,
+		*::after,
+		*::before {
+			box-sizing: border-box;
+		}
+
+		img {
+			border: 0;
+		}
+
+		body {
+			font-family: 'PT Sans';
+			background: #EAEAEA;
+			letter-spacing: 1px;
+			font-size: 14px;
+		}
+
+		.wrapper {
+			height: 1300px;
+		}
+
+		.container {
+			width: 740px;
+			margin: 0 auto;
+			position: relative;
+		}
+
+		.header {
+			background: #333333;
+			color: #fff;
+			text-align: center;
+		}
+
 		.header h1 {
 			color: #fff;
 			font: bold 22px/1.4 PT Sans;
-			margin: 40px 0 50px;
-			padding: 20px 35px;
+			margin: 20px 0 30px;
+			padding: 20px 35px 25px;
 			display: inline-block;
 			border: 5px solid #fff;
 		}
+
 		.header h2 {
 			color: #1B3A4F;
 			background: #fff;
 			font: bold 16px/1.4 PT Sans;
 			padding: 5px 10px;
 			position: absolute;
-			bottom: 36px;
+			bottom: 18px;
 			left: 41%;
 		}
-		.content{padding:22px 0;}
-		.content-left{
-			float:left;
-			width:35%;
-			padding:0 10px;
+
+		.content {
+			padding: 22px 0;
 		}
-		.content-right{
-			float:right;
-			width:65%;
-			padding:0 10px;
+
+		.content-left {
+			float: left;
+			width: 35%;
+			padding: 0 10px;
 		}
-		h3{
+
+		.content-right {
+			float: right;
+			width: 65%;
+			padding: 0 10px;
+		}
+
+		h3 {
 			font: bold 16px/1.4 PT Sans;
-			padding: 10px 0 8px;
-			text-transform:uppercase;
-			box-shadow:0 0 0;
-			text-shadow:0 0 0;
+			padding: 5px 0 8px;
+			text-transform: uppercase;
+			box-shadow: 0 0 0;
+			text-shadow: 0 0 0;
 		}
-		p{
-			font-size:14px;
-			padding:5px 0 8px;
+
+		p {
+			font-size: 14px;
+			padding: 5px 0 8px;
 		}
-		ul{
-			padding:0 0 0 20px;
+
+		ul {
+			padding: 0 0 0 20px;
 		}
-		ul li{
-			padding:0px 0 5px;
+
+		ul li {
+			padding: 0px 0 5px;
 		}
-		ul li a{
-			color:#282928;
+
+		ul li a {
+			color: #282928;
 		}
+
 		.circle {
 			height: 15px;
 			width: 15px;
@@ -100,19 +229,23 @@ img {
 			display: inline-block;
 			margin: 0 5px;
 		}
-		.circle.c-c{
-			background:#333333;
+
+		.circle.c-c {
+			background: #333333;
 		}
-		.skill{
-			width:78px;
+
+		.skill {
+			width: 78px;
 			display: inline-block;
 		}
+
 		p.p-skill {
 			width: 50%;
 			float: left;
 		}
 	</style>
 </head>
+
 <body>
 	<div class="wrapper">
 		<div class="header">
@@ -125,38 +258,49 @@ img {
 			<div class="container">
 				<div class="content-left">
 					<h3>PROFILE</h3>
-					<p>Talented Web Developer who is proficient in designing and developing responsive web applications and websites as per web standards.</p>
+					<p>Talented Web Developer who is proficient in designing and developing responsive web applications
+						and websites as per web standards.</p>
 					<h3>Education</h3>
-					<p><b>PESITM, Shimoga</b><br/>Bachelor of Engineering (Computer Science)<br/>2012-2016<br/>56.75%</p>
-					<p><b>Kendriya Vidyalaya 2, Bangalore</b><br/>Higher secondary (12<sup>th</sup> STD)<br/>65.0%</p>
-					<p>SSLC (10<sup>th</sup> STD)<br/>76.8%</p>
+					<p><b>PESITM, Shimoga</b><br />Bachelor of Engineering (Computer Science)<br />2012-2016<br />56.75%
+					</p>
+					<p><b>Kendriya Vidyalaya 2, Bangalore</b><br />Higher secondary (12<sup>th</sup> STD)<br />65.0%</p>
+					<p>SSLC (10<sup>th</sup> STD)<br />76.8%</p>
 					<h3>Hobbies</h3>
 					<p>Search Engine Optimization (SEO), Playing Football and Photography</p>
 					<h3>Contact</h3>
-					<p><b>Phone</b><br/>+91-7676428537 / 9380608529</p>
-					<p><b>Email</b><br/>ashashu1994@gmail.com</p>
-					<p><b>Linkedin</b><br/>www.linkedin.com/in/ashwani-kumar-saha-98628181</p>
-					<p><b>Behance</b><br/>www.behance.net/ashashu1994</p>
-					<p><b>GIT</b><br/>www.github.com/ashashu1994</p>
-					<p><b>Address</b><br/>#306, Block A, Samaya Sonata, Chikkabettahalli, Vidyaranyapura, Bangalore - 97</p>
+					<p><b>Phone</b><br />+91-7676428537 / 9380608529</p>
+					<p><b>Email</b><br />ashashu1994@gmail.com</p>
+					<p><b>Linkedin</b><br />www.linkedin.com/in/ashwani-kumar-saha-98628181</p>
+					<p><b>Behance</b><br />www.behance.net/ashashu1994</p>
+					<p><b>GIT</b><br />www.github.com/ashashu1994</p>
+					<p><b>Address</b><br />#306, Block A, Samaya Sonata, Chikkabettahalli, Vidyaranyapura, Bangalore -
+						97</p>
 				</div>
 				<div class="content-right">
-					<h3>EXPERIENCE</h3>
+					<h3>EXPERIENCE (2 year 9 months)</h3>
 					<p><b>BigApp Company</b> | Feb 2018 - Present</p>
 					<p><b>Swaragh Technologies</b> | Oct 2016 - Jan 2018</p>
 					<p><b>Roles and Responsibility:</b></p>
 					<ul>
-						<li>Converting the design mockups into React/Angular components and check for the cross browser compatibility.</li>
-						<li>Maintaining, developing and designing responsive websites according to client's requirements.</li>
+						<li>Converting the design mockups into React/Angular components and check for the cross browser
+							compatibility.</li>
+						<li>Maintaining, developing and designing responsive web applications and websites according to
+							client's
+							requirements.</li>
 						<li>Handling Git/Bitbucket/GitLab repositories.</li>
 						<li>Handling Godaddy servers for hosting and domain.</li>
 					</ul>
 					<h3>WORKS</h3>
 					<ul>
 						<li>
+							<b>Deepstrap</b>
+							<p>A fully customisable CSS framework which is a replacement of Bootstrap, built specially
+								 for Reactstrap (React JS) components.</p>
+						</li>
+						<li>
 							<b>Curio Technologies</b>
-							<p>Website and a Product with most advanced Travel & Expense solutions available built using React Js, HTML5 and SCSS.
-							Every customer has tangibly improved ROI on corporate travel by improving traveler comfort and reducing costs at the same time.</p>
+							<p>Website and a Product with most advanced Travel & Expense solutions available built using
+								React Js, HTML5, SCSS, Bootstrap 4, Node Js and MongoDB. </p>
 						</li>
 						<li>
 							<b>React Labs</b> | <b>Scholify</b> | <b></b>
@@ -164,50 +308,69 @@ img {
 						</li>
 						<li>
 							<a target="_blank" href="http://www.karekars.in"><b>www.karekars.in</b></a> |
-							<a target="_blank" href="https://www.revapucollege.edu.in/"><b>www.revapucollege.edu.in</b></a> |
-							<a target="_blank" href="https://www.revapucollege.edu.in/"><b>www.revapucollege.edu.in</b></a> |
-							<a target="_blank" href="http://www.greenfieldschoolblr.edu.in/"><b>www.greenfieldschoolblr.edu.in</b></a> |
+							<a target="_blank"
+								href="https://www.pixelartproductions.com/"><b>www.pixelartproductions.com</b></a> |
+							<a target="_blank" href="http://www.kruti.in"><b>www.kruti.in</b></a> |
+							<a target="_blank"
+								href="https://www.revapucollege.edu.in/"><b>www.revapucollege.edu.in</b></a> |
+							<a target="_blank"
+								href="https://www.athreyaayurveda.com/"><b>www.athreyaayurveda.com</b></a> |
+							<a target="_blank"
+								href="http://www.greenfieldschoolblr.edu.in/"><b>www.greenfieldschoolblr.edu.in</b></a>
+							|
 							<a target="_blank" href="http://www.vitalchakra.com/"><b>www.vitalchakra.com</b></a> |
-							<a target="_blank" href="http://quriz.com/"><b>www.quriz.com</b></a> |
-							<a target="_blank" href="http://www.dmmodular.com"><b>www.dmmodular.com</b></a> |
-							<a target="_blank" href="http://www.kruti.in"><b>www.kruti.in</b></a>
-							<p>Front-End Web Design built with HTML5, CSS3, SCSS, LESS, Bootstrap 3/4 and JQuery/Javascript.</p>
+							<a target="_blank" href="http://bigappcompany.com/"><b>www.bigappcompany.com</b></a> |
+							<a target="_blank" href="http://www.dmmodular.com"><b>www.dmmodular.com</b></a> ...more
+							<p>Front-End Web Design built with HTML5, CSS3, SCSS, LESS, Bootstrap 3/4 and
+								JQuery/Javascript.</p>
 						</li>
 						<li>
-							<a target="_blank" href="http://www.ksiidc.com"><b>www.ksiidc.com</b></a>
-							<p>WordPress Website built using WordPress Theme, HTML5, CSS3 and JQuery.</p>
-						</li>
-						<li>
-							<a target="_blank" href="http://www.brewhomes.com"><b>www.brewhomes.com</b></a>
-							<p>e-Commerce Website built using Magento Theme, HTML5 and CSS3.</p>
+							<a target="_blank" href="http://www.ksiidc.com"><b>www.ksiidc.com</b></a> | <a
+								target="_blank" href="http://www.brewhomes.com"><b>www.brewhomes.com</b></a>
+							<p>WordPress/Magento Website built using WordPress/Magento Theme, HTML5, CSS3 and JQuery.
+							</p>
 						</li>
 					</ul>
 					<h3>Skills</h3>
-					<p class="p-skill"><span class="skill">HTML5</span> <span class="circle c-c"></span><span class="circle c-c"></span><span class="circle c-c"></span><span class="circle c-c"></span><span class="circle"></span></p>
-					<p class="p-skill"><span class="skill">CSS3</span> <span class="circle c-c"></span><span class="circle c-c"></span><span class="circle c-c"></span><span class="circle c-c"></span><span class="circle"></span></p>
-					<p class="p-skill"><span class="skill">Bootstrap</span> <span class="circle c-c"></span><span class="circle c-c"></span><span class="circle c-c"></span><span class="circle c-c"></span><span class="circle"></span>
-					<p class="p-skill"><span class="skill">Photoshop</span> <span class="circle c-c"></span><span class="circle c-c"></span><span class="circle c-c"></span><span class="circle c-c"></span><span class="circle"></span>
-					<p class="p-skill"><span class="skill">JQuery</span> <span class="circle c-c"></span><span class="circle c-c"></span><span class="circle c-c"></span><span class="circle c-c"></span><span class="circle"></span></p></p></p>
-					<p class="p-skill"><span class="skill">SASS</span> <span class="circle c-c"></span><span class="circle c-c"></span><span class="circle c-c"></span><span class="circle c-c"></span><span class="circle"></span></p>
-					<p class="p-skill"><span class="skill">React Js</span> <span class="circle c-c"></span><span class="circle c-c"></span><span class="circle"></span><span class="circle"></span><span class="circle"></span></p>
-					<p class="p-skill"><span class="skill">JavaScript</span> <span class="circle c-c"></span><span class="circle c-c"></span><span class="circle"></span><span class="circle"></span><span class="circle"></span></p>
-					<p class="p-skill"><span class="skill">Angular Js</span> <span class="circle c-c"></span><span class="circle c-c"></span><span class="circle"></span><span class="circle"></span><span class="circle"></span></p>
-					<p class="p-skill"><span class="skill">Jekyll</span> <span class="circle c-c"></span><span class="circle c-c"></span><span class="circle c-c"></span><span class="circle"></span><span class="circle"></span></p>
-					<p class="p-skill"><span class="skill">WordPress</span> <span class="circle c-c"></span><span class="circle c-c"></span><span class="circle c-c"></span><span class="circle"></span><span class="circle"></span></p>
-					<p class="p-skill"><span class="skill">GIT</span> <span class="circle c-c"></span><span class="circle c-c"></span><span class="circle c-c"></span><span class="circle c-c"></span><span class="circle"></span></p>
+					<p class="p-skill"><span class="skill">HTML5</span> <span class="circle c-c"></span><span
+							class="circle c-c"></span><span class="circle c-c"></span><span
+							class="circle c-c"></span><span class="circle c-c"></span></p>
+					<p class="p-skill"><span class="skill">CSS3</span> <span class="circle c-c"></span><span
+							class="circle c-c"></span><span class="circle c-c"></span><span
+							class="circle c-c"></span><span class="circle c-c"></span></p>
+					<p class="p-skill"><span class="skill">Bootstrap</span> <span class="circle c-c"></span><span
+							class="circle c-c"></span><span class="circle c-c"></span><span
+							class="circle c-c"></span><span class="circle c-c"></span>
+					</p>
+					<p class="p-skill"><span class="skill">SCSS</span> <span class="circle c-c"></span><span
+							class="circle c-c"></span><span class="circle c-c"></span><span
+							class="circle c-c"></span><span class="circle c-c"></span></p>
+					<p class="p-skill"><span class="skill">JQuery</span> <span class="circle c-c"></span><span
+							class="circle c-c"></span><span class="circle c-c"></span><span
+							class="circle c-c"></span><span class="circle c-c"></span></p>
+					<p class="p-skill"><span class="skill">Photoshop</span> <span class="circle c-c"></span><span
+							class="circle c-c"></span><span class="circle c-c"></span><span
+							class="circle c-c"></span><span class="circle"></span>
+					</p>
+					<p class="p-skill"><span class="skill">React Js</span> <span class="circle c-c"></span><span
+							class="circle c-c"></span><span class="circle c-c"></span><span class="circle"></span><span
+							class="circle"></span></p>
+					<p class="p-skill"><span class="skill">JavaScript</span> <span class="circle c-c"></span><span
+							class="circle c-c"></span><span class="circle"></span><span class="circle"></span><span
+							class="circle"></span></p>
+					<p class="p-skill"><span class="skill">Angular Js</span> <span class="circle c-c"></span><span
+							class="circle c-c"></span><span class="circle"></span><span class="circle"></span><span
+							class="circle"></span></p>
+					<p class="p-skill"><span class="skill">Jekyll</span> <span class="circle c-c"></span><span
+							class="circle c-c"></span><span class="circle c-c"></span><span class="circle"></span><span
+							class="circle"></span></p>
+					<p class="p-skill"><span class="skill">WordPress</span> <span class="circle c-c"></span><span
+							class="circle c-c"></span><span class="circle c-c"></span><span class="circle"></span><span
+							class="circle"></span></p>
+					<p class="p-skill"><span class="skill">Adobe XD</span> <span class="circle c-c"></span><span
+							class="circle c-c"></span><span class="circle c-c"></span><span class="circle"></span><span
+							class="circle"></span></p>
 					<div style="clear:both"></div>
-					<!-- <h3>CERTIFICATION</h3>
-					<ul>
-						<li>Participated in SG GSC HACKATON BRAINWAVES 2014.</li>
-						<li>Participated in Ethical Hacking and Information Security Workshop 2014 organized by GDG Mangalore.</li>
-						<li>Highest scorer in Inter-Collegiate Central Karnataka Zone Football Tournament 2013-2014.</li>
-						<li>Participated in VTU Athletics meet, Belgaum in 2013-2014 and Bangalore 2014-2015.</li>
-					</ul> -->
-					<!--<h3>EXTRA CURRICULAR ACTIVITIES</h3>
-					<ul>
-						<li>Highest scorer in Inter-Collegiate Central Karnataka Zone Football Tournament 2013-2014.</li>
-						<li>Participated in VTU Athletics meet, Belgaum in 2013-2014 and Bangalore 2014-2015.</li>
-					</ul>-->
 				</div>
 				<div style="clear:both"></div>
 			</div>
@@ -215,4 +378,5 @@ img {
 		<div style="margin:50px 0 0;height:200px;background:#333333"></div>
 	</div>
 </body>
+
 </html>
